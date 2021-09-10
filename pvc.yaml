@@ -7,3 +7,5 @@ spec:
     - ReadWriteOnce
   capacity:
     storage: 5Gi
+  hostPath:
+    path: /data/data-volume/
